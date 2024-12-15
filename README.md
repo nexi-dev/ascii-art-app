@@ -104,5 +104,5 @@ run --image-random --rotate -90 --invert 255 --brighntess 10 --export-console --
 
 Import image from a path ```/examples/scala.jpg```, rotate it by 90 degrees clockwise and 90 degrees anticlockwise, then use a linear custom character ramp ``` .';/=@#``` and print it twice in the terminal:
 ```
-run --image-file /examples/scala.jpg --rotate -90 --rotate 90 --table " .';/=@#" --export-console --export-console
+run --image-file examples/scala.jpg --rotate -90 --rotate 90 --table " .';/=@#" --export-console --export-console
 ```
