@@ -99,7 +99,7 @@ Display the ASCII art in the terminal:
 
 Generate a random file, rotate it 90 degrees clockwise, invert it, increase the brighntess by 10, export to terminal and files "file1.txt", file2.txt" while using a nonlinear ASCII conversion:
 ```bash
-run --image-random --rotate -90 --invert 255 --brighntess 10 --export-console --export-file "file1.txt" --export-file "file2.txt" --table nonlinear
+run --image-random --rotate -90 --invert 255 --brightness 10 --export-console --export-file "file1.txt" --export-file "file2.txt" --table nonlinear
 ```
 
 Import image from a path ```/examples/scala.jpg```, rotate it by 90 degrees clockwise and 90 degrees anticlockwise, then use a linear custom character ramp ``` .';/=@#``` and print it twice in the terminal:
